@@ -1,0 +1,20 @@
+For Creating New Project:
+    django-admin startproject "ProjectName"
+
+For Creating New APP:
+    python manage.py startapp "APPNAME"
+
+For Migrations:
+    python manage.py makemigrations
+
+    if it fails then:
+        python manage.py makemigrations "APPNAME"
+
+For DB Migrations:
+    python manage.py migrate
+
+For App Registration IN Settings Installed APPS
+
+For django official creating a single app:
+    https://docs.djangoproject.com/en/2.2/intro/tutorial01/
+
